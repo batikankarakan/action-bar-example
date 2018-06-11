@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<!-- Arama, eylem düğmesi olarak görülebilir -->
+
+    <item android:id="@+id/action_search"
+        android:icon="@drawable/baseline_search_black_24"
+        android:title="@string/action_search"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_ayarlar"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+<!-- Ayarlar, daima taşan eylemler bölümünde durabilir -->
+</menu>
